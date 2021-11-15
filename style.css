@@ -2,7 +2,7 @@
 
 
 :root{
-    --red: grey;
+    --red:blue;
     }
 *
 {
@@ -18,7 +18,7 @@
 }
 ::selection{
     background: var(--red);
-    color: #fff;
+    color:blue;
 }
 html
 {
@@ -76,12 +76,9 @@ section{
 
 .heading{
     font-size: 3rem;
-    color: #666;
+    color:blue;
 }
-.heading span{
-    color: var(--red);
-    
-}
+
 header
 {
     width:100%;
@@ -118,7 +115,7 @@ header .navbar ul li
 }
 header .navbar ul li a
 {
-    color: #999;
+    color: blue;
     font-size: 2rem;
 }
 header .navbar ul li a:active
@@ -181,6 +178,7 @@ header .navbar ul li a:hover
 .protect .heading{
     text-align: center;
     padding: 1rem;
+    color: black;
 }
 .protect .box-container{
     display: flex;
@@ -191,22 +189,23 @@ header .navbar ul li a:hover
 
 .protect .box-container .box{
     background: #fff;
-    border: 1rem solid rgba(0,0,0,0.1);
+    border: 0.6rem solid black;
     padding: 2rem;
     margin: 2rem;
     width: 34rem;
-    border-radius: .5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+    border-radius: 2.5rem;
+    box-shadow: 0 0.5rem 1rem blue;
     text-align: center;
 }
 
 .protect .box-container .box img{
     width: 17rem;
     height: 17rem;
+    border-radius: 10%;
 }
 .protect .box-container .box h3{
     font-size: 2.5rem;
-    color: #666;
+    color:black;
     padding: 1rem 0;
     
 }
@@ -218,35 +217,35 @@ header .navbar ul li a:hover
 .protect .box-container .box:hover{
     transform: translateY(-1rem);
 }
-.symtoms{
+.symptoms{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
-.symtoms .content{
+.symptoms .content{
     flex: 1 1 40rem;
 }
-.symtoms .image{
+.symptoms .image{
     flex: 1 1 40rem;
 }
-.symtoms .image img{
-    width: 100%;
+.symptoms .image img{
+width: 100%;
+border-radius: 5%;
 }
-.symtoms content p{
+.symptoms content p{
     font-size: 1.5rem;
     color: #999;
     padding: 1rem 0;
 }
-.symtoms .content ul{
+.symptoms .content ul{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 0;
 }
-.symtoms .content ul .symtoms2{
+.symptoms .content ul .symptoms2{
     padding-left: 4.5rem;
 }
-.symtoms .content ul li{
+.symptoms .content ul li{
     margin-left: 2rem;
     font-size: 1.5rem;
     color: #666;
