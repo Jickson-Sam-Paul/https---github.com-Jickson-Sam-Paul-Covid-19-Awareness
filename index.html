@@ -20,7 +20,7 @@
                 <li><a href="#symptoms">Symptoms</a></li>
                 <li><a href="#precautions">Precautions</a></li>  
                 <li><a href="#spread">Spread</a></li>
-                <li><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HY0Be66cRO00vH"> </script> </form></li>
+                <li><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IMArZ0Cl57fO7L" async> </script></form></li>
             </ul>
         </nav>
     </header>
@@ -59,9 +59,9 @@
             </div>
         </div>
     </section>
-    <section class="symptoms">
+    <section class="symptoms" id="symptoms">
         <div class="content">
-            <h1 class="heading">Main Symptoms are: </h1>
+            <h1 class="heading">Main Symptoms are: </h1><br><br><br>
             <ul>
                 <div class="symptoms1">
                     <li>High Fever</li>
@@ -83,80 +83,26 @@
     <section class="precautions" id="precautions">
         <div class="row">
             <div class="image">
-                <img src="precuations.png" alt="">
+                <img src="prev.jpg" alt="">
             </div>
             <div class="content">
-                <h1 class="heading">Things not to do during covid</h1>
-                <p>You need to avoid public places and handshaking with each other.</p>
+                <h1 class="heading">Things you must follow during covid</h1><br>
                 <ul>
                     <li>Do not share your food</li>
-                    <li>Avoid Public Places</li>
-                    <li>Take 30 secs and wash your hands</li>
+                    <li>Avoid going to Public Places</li>
+                    <li>Wash your hands frequently</li>
+                    <li>Always wear your masks</li>
+                    <li>Maintain Social Distancing</li>
                 </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="content">
-                <h1 class="heading"><span>Things not to do </span> during covid</h1>
-                <p>You need to avoid public places and handshaking with each other.</p>
-                <ul>
-                    <li>6 feet distance</li>
-                    <li>Use sanitizer</li>
-                    <li>Wear Mask Properly</li>
-                </ul>
-            </div>
-            <div class="image">
-                <img src="precuations1.png" alt="">
             </div>
         </div>
     </section>
     <section class="spread" id="spread">
         <h1 class="heading">How Covid-19<span> spreads </span> over the world</h1>
-        <div class="image">
+        <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
         </div>    
     </section>
-    <section class="graph" id="graph">
-        <h1>Cases In India</h1>
-        <div class="graphcases">
-            <canvas id="myChart" width="700" height="400"></canvas>
-            <script>
-                var ctx = document.getElementById('myChart').getContext('2d');
-                var myChart = new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                       labels: ['USA', 'India', 'Briten', 'Canada', 'Russia', 'Europe'],
-                       datasets: [{
-                        label: '# of Votes',
-                        data: [5, 19, 3, 2, 2, 0],
-                          backgroundColor: [
-                             'rgba(255, 99, 132, 0.2)',
-                             'rgba(54, 162, 235, 0.2)',
-                             'rgba(255, 206, 86, 0.2)',
-                             'rgba(75, 192, 192, 0.2)',
-                             'rgba(153, 102, 255, 0.2)',
-                             'rgba(255, 159, 64, 0.2)'
-            ],
-                          borderColor: [
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 1)',
-                            'rgba(255, 159, 64, 1)'
-        ],
-         borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});              
-       </script>
-        </div>
+    </div>
     </section>
     <section class="grid" id="grid">
         <div class="image">
