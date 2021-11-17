@@ -303,9 +303,12 @@ border-radius: 5%;
     padding-bottom: 6vh;
 }
 .vac p
-{
-    
+{    
     font-size: 1.8rem;
+}
+.vid
+{
+    padding-left: 21%;
 }
 .news{
     background: #fff;
