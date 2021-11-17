@@ -5,12 +5,12 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>Covid Awareness Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     </head>
 <body>
     <header>
-        <a href="#" class="logo">Covid-19 Awareness</a>
-        
+        <a href="#" class="logo animate__animated animate__bounce">Covid-19 Awareness</a>        
         <div id="menu" class="fas fa-bars">
         </div>
         <nav class="navbar">
@@ -20,7 +20,7 @@
                 <li><a href="#symptoms">Symptoms</a></li>
                 <li><a href="#precautions">Precautions</a></li>  
                 <li><a href="#spread">Spread</a></li>
-                <li><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IMArZ0Cl57fO7L" async> </script></form></li>
+                <li><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IMArZ0Cl57fO7L" async></script></form></li>
             </ul>
         </nav>
     </header>
@@ -80,6 +80,11 @@
             <img src="symptoms.png" alt="">
         </div>
     </section>
+    <section class="grid" id="grid">
+        <div class="image">
+            <img src="understand1.png">
+        </div>    
+    </section>
     <section class="precautions" id="precautions">
         <div class="row">
             <div class="image">
@@ -104,17 +109,13 @@
     </section>
     </div>
     </section>
-    <section class="grid" id="grid">
-        <div class="image">
-            <img src="understand1.png">
-        </div>    
-    </section>
      <section class="news" id="news">
-        <h1 class="heading">Latest News For Today</h1>
         <div class="livenews">
-            <a href="https://www.worldometers.info/coronavirus/country/india/">Get News</a>
+            <a style="text-decoration: underline;" href="https://www.worldometers.info/coronavirus/country/india/">Get Statistics of covid cases</a><br><br>
+            <div><a href="https://www.worldometers.info/coronavirus/country/india/"><img src="worldo.jfif" height="150vh"></a>
             <div class="livenews1">
-            <a href="https://www.who.int/">Visit This Page </a>
+            <a style="text-decoration: underline;" href="https://www.who.int/">Click below to visit WHO's official website</a><br><br>
+            <a href="https://www.who.int/"><img src="WHO.png" height="200vh"></a>
             </div>
         </div>
     </section>
@@ -129,10 +130,9 @@
             <div class="box">
                 <h3>Navbars</h3>
                 <a href="#">Home</a>
-                <a href="#">Protect</a>
-                <a href="#">Symtoms</a>
-                <a href="#">Precautions</a>
-                <a href="#">Spread</a>
+                <a href="#symptoms">Symptoms</a>
+                <a href="#protect">Prevention</a>
+                <a href="#spread">Spread</a>
             </div>
             <div class="box">
                 <h3>Contact Info</h3>
