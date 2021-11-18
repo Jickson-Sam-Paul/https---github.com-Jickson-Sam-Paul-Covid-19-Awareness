@@ -159,9 +159,10 @@ header .navbar ul li a:hover
 }
 
 
-.protect .heading{
+.protect h1{
+    font-size: 4rem;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
     color: black;
 }
 .protect .box-container{
@@ -188,7 +189,7 @@ header .navbar ul li a:hover
     border-radius: 10%;
 }
 .protect .box-container .box h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:black;
     padding: 1rem 0;
     
@@ -200,6 +201,9 @@ header .navbar ul li a:hover
 }
 .protect .box-container .box:hover{
     transform: translateY(-1rem);
+}
+.content h1{
+    font-size: 4rem;
 }
 .symptoms{
     display: flex;
@@ -217,7 +221,7 @@ width: 100%;
 border-radius: 5%;
 }
 .symptoms content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #999;
     padding: 1rem 0;
 }
@@ -231,8 +235,8 @@ border-radius: 5%;
 }
 .symptoms .content ul li{
     margin-left: 2rem;
-    font-size: 1.5rem;
-    color: #666;
+    font-size: 2rem;
+    color: black;
     padding: .5rem 0;
 }
 .precautions{
@@ -293,10 +297,7 @@ border-radius: 5%;
 .grid .image{
     text-align: center;
 }
-.vac
-{
-    align-items:center;
-}
+
 .vac h1
 {
     font-size: 6rem;
